@@ -2590,7 +2590,7 @@ end);
      return fail;
    fi;
    return C;
-   D!.OutNeighbors:=OutNeighbors(C);
+   D!.OutNeighbors := OutNeighbors(C);
  end);
 
 InstallMethod(UndirectedSpanningTree, "for an immutable digraph",
